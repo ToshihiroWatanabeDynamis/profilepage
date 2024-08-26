@@ -1,0 +1,186 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	background-color: #f4f4f9;
+	color: #333;
+}
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 2vw;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	font-size: 3vw;
+}
+
+header p {
+	font-size: 2vw;
+	color: #666;
+}
+
+.profile-image {
+	width: 20vw;
+	height: 20vw;
+	border-radius: 50%;
+	object-fit: cover;
+	/* margin: 0 auto; */
+}
+
+.hobby-image {
+	width: 12vw;
+	height: 12vw;
+	border-radius: 50%;
+	border: 0.3vw solid rgb(219, 208, 195);
+	object-fit: cover;
+	margin: 1vw;
+}
+
+.hobbys {
+	display: flex;
+	justify-content: center;
+}
+
+section {
+	margin-top: 1vw;
+}
+
+section h2 {
+	font-size: 2vw;
+	border-bottom: 0.2vw solid #333;
+	padding-bottom: 1vw;
+}
+
+section p {
+	font-size: 1.5vw;
+	line-height: 1.6;
+}
+
+footer {
+	font-size: 1.2vw;
+	text-align: center;
+	padding: 2vw 0;
+	margin-top: 1vw;
+	border-top: 0.2vw solid #ccc;
+}
+
+@media (max-width: 1199px) {
+	.container {
+		max-width: 90%;
+		padding: 3vw;
+	}
+
+	header h1 {
+		font-size: 4vw;
+	}
+
+	header p {
+		font-size: 3vw;
+	}
+
+	.profile-image {
+		width: 25vw;
+		height: 25vw;
+	}
+
+	.hobby-image {
+		width: 15vw;
+		height: 15vw;
+	}
+
+	section h2 {
+		font-size: 3vw;
+	}
+
+	section p {
+		font-size: 2vw;
+	}
+
+	footer {
+		font-size: 1.5vw;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		max-width: 95%;
+		padding: 4vw;
+	}
+
+	header h1 {
+		font-size: 5vw;
+	}
+
+	header p {
+		font-size: 4vw;
+	}
+
+	.profile-image {
+		width: 30vw;
+		height: 30vw;
+	}
+
+	.hobby-image {
+		width: 20vw;
+		height: 20vw;
+		margin: 2vw;
+	}
+
+	section h2 {
+		font-size: 4vw;
+	}
+
+	section p {
+		font-size: 2.5vw;
+	}
+
+	footer {
+		font-size: 2vw;
+	}
+}
+
+@media (max-width: 575px) {
+	.container {
+		max-width: 100%;
+		padding: 5vw;
+	}
+
+	header h1 {
+		font-size: 6vw;
+	}
+
+	header p {
+		font-size: 5vw;
+	}
+
+	.profile-image {
+		width: 40vw;
+		height: 40vw;
+	}
+
+	.hobby-image {
+		width: 30vw;
+		height: 30vw;
+		margin: 3vw;
+	}
+
+	section h2 {
+		font-size: 5vw;
+	}
+
+	section p {
+		font-size: 3vw;
+	}
+
+	footer {
+		font-size: 3vw;
+	}
+}

@@ -2,30 +2,56 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>自己紹介</title>
         <meta name="description" content="自己紹介">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.ico">
     </head>
 
     <body>
-        <img src="iLoveIMG 3784.jpg" alt="プロフィール画像">
-        <h1>渡辺 俊裕</h1>
-        <p>かけだしエンジニア</p>
-        <h2>自己紹介</h2>
-        <img src="3075アコースティックギター.png" alt="趣味1">
-        <img src="サウナイラスト.png" alt="趣味2">
-        <p>
-            こんにちは！渡辺俊裕と申します。かけだしのエンジニアです。ホームページ等の作成でフロントエンドの技術に少し触れたことがあります。趣味はサウナとギターです。
-        </p>
-        <h2>スキル</h2>
-        <p>
-            - HTML / CSS / JavaScript<br>
-            - ととのう<br>
-            - つまびく
-        </p>
-        <h2>お問い合わせ</h2>
-        <p>
-            ご質問やお問い合わせがございましたら、下記のメールアドレスまでお気軽にご連絡ください。<br>
-            <a href="t.watanabe@dynamis.llc">t.watanabe@dynamis.llc</a>
-        </p>
+        <div class="container">
+            <header>
+                <img src="iLoveIMG 3784.jpg" alt="プロフィール画像" class="profile-image">
+                <h1>渡辺 俊裕</h1>
+                <p>かけだしエンジニア</p>
+            </header>
+
+            <section class="hobbys">
+                <img src="サウナイラスト.png" alt="趣味1" class="hobby-image">
+                <img src="3075アコースティックギター.png" alt="趣味2" class="hobby-image">
+            </section>
+
+            <section>
+                <h2>自己紹介</h2>
+                    <p>
+                        こんにちは！渡辺俊裕と申します。かけだしのエンジニアです。ホームページ等の作成でフロントエンドの技術に少し触れたことがあります。趣味はサウナとギターです。
+                    </p>
+            </section>
+
+            <section>
+                <h2>スキル</h2>
+                <p>
+                    - HTML / CSS / JavaScript<br>
+                    - ととのう<br>
+                    - つまびく
+                </p>
+            </section>
+
+            <section>
+                <h2>お問い合わせ</h2>
+                <p>
+                    ご質問やお問い合わせがございましたら、下記のメールアドレスまでお気軽にご連絡ください。<br>
+                    <a href="t.watanabe@dynamis.llc">t.watanabe@dynamis.llc</a>
+                </p>
+            </section>
+
+            <footer>
+                &copy; 2024 渡辺 俊裕
+            </footer>
+        </div>
     </body>
 </html>
